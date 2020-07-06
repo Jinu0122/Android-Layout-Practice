@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".layout5"
+android:padding="20dp"
+android:orientation="vertical"
+    >
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cancel"
+    />
+
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upgrade To Premuim"
+    android:textSize="25dp"
+    android:textColor="#000"
+    android:textStyle="bold"
+    />
+<RelativeLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/roundedphink"
+    android:paddingStart="18dp"
+    >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B A C H E L O R"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Month - $6.99"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ut enim ad minim veniam, quis nostrud"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_marginTop="95dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exercitation ultrices nulla quis nibh."
+        android:textColor="#fff"
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/roundedorange"
+        android:paddingStart="18dp"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M A R R I E D"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 Month - $4.99"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ut enim ad minim veniam, quis nostrud"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_marginTop="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="exercitation ultrices nulla quis nibh."
+            android:textColor="#fff"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/roundedblue"
+        android:paddingStart="18dp"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M A R R I E D   W I T H  C H I L D R E N"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 Month - $3.99"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ut enim ad minim veniam, quis nostrud"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_marginTop="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="exercitation ultrices nulla quis nibh."
+            android:textColor="#fff"
+            />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/roundedgreen"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:layout_marginBottom="90dp"
+            />
+        <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cance any time in AppleStore"
+            android:layout_margin="50dp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

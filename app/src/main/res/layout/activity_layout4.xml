@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout4"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add account"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/roundedblue"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/bank"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Bank account"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Automatically import cleared transactions \nfrom your personal bank account."
+                android:textColor="#fff"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/roundedphink"
+            >
+            <ImageView
+                android:layout_marginStart="20dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/finger"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Manual account"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold"
+                android:gravity="end"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="seetup a current ballance and get total \ncontrol by manually adding transactions"
+                android:textColor="#fff"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="end"
+                />
+        </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/roundedgreen"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/allowleft"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More about you"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload your profile picture"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:textColor="#555555"
+        />
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+             <ImageView
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/Oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/Oval"
+                />
+
+            <ImageView
+
+                app:layout_constraintStart_toStartOf="@id/Oval"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="60dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/camera"
+                />
+         </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btw.you look graet :)"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <Button
+            android:layout_weight="0.5"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedline"
+            android:text="Maybe later"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#31D19E"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedgreen"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
